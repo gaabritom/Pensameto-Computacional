@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora de Média</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Calculadora de Média</h1>
+    <form id="mediaForm">
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome"><br>
+        <label for="nota1">Nota 1:</label><br>
+        <input type="number" id="nota1" name="nota1"><br>
+        <label for="nota2">Nota 2:</label><br>
+        <input type="number" id="nota2" name="nota2"><br>
+        <label for="nota3">Nota 3:</label><br>
+        <input type="number" id="nota3" name="nota3"><br>
+        <input type="button" value="Calcular Média" onclick="calcularMedia()">
+    </form>
+    <p id="resultado"></p>
+    <script src="script.js"></script>
+</body>
+</html>
